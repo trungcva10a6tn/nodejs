@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>demo</title>
-    <script src="js/angular.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/angular.min.js"></script>
+    <script src="js/script.js"></script>
 </head>
-<body>
-    
+<body ng-app="myapp" ng-controller="myctrl">
+    <p>{{title}}</p>
+    <progress-bar data-value="progress.value"></progress-bar>
 </body>
 </html>
